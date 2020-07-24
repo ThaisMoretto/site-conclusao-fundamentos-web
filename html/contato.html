@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contato - Lanchonete Kibon</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-escale=1.0">
+        <meta name="description" content="Há mais de 50 anos oferecendo os melhores produtos com o melhor atendimento.">
+        <meta name="keywords" content="LLanchonete, salgados, doces, happy hour, festival, pastel, nhoque">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Thais Helena Moretto">
+        <link rel="stylesheet" type="text/css" href="../css/estilocontato.css">
+        <link rel="icon" href="../logos/iconsite.png">
+        <script src="https://kit.fontawesome.com/add145d658.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <a href="../index.html"><div class="logo"></div></a>
+            <div class="divnomesite"><h2 class="nomesite">LANCHONETE KIBON</h2></div>
+        </header>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="../html/doces.html">DOCES</a></li>
+                <li><a href="../html/salgados.html">SALGADOS</a></li>
+                <li><a href="../html/festivais.html">FESTIVAIS</a></li>
+            </ul>
+        </nav>
+
+        <div class="contatokibon">
+            <h3>Entre em contato!</h3>
+            <p>Dê sua opnião ou sugestões. Já nos conhece? Então conte como foi sua experiência com a Lonchonete Kibon.</p>
+        </div>
+
+        <div class="formulario">
+            <form name="contato" method="post" action="#">
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome" maxlength="50" name="inputname" autofocus placeholder="Digite seu nome"><br><br>
+                
+                <label for="conhecekibon">Já experimentou algum de nossos produtos?</label><br>
+                <input type="radio" id="inputsim" name="conhece">
+                <label id="sim">Sim</label>
+                <input type="radio" id="inputnao" name="conhece">
+                <label id="nao">Não</label><br><br>
+                
+                <label for="comoconheceu">Como nos conheceu?</label><br>
+                <select id="meios" name="meios">
+                    <option value="indicacaodeamigos" selected>Indicação de amigos</option>
+                    <option value="indicacaodefamiliares">Indicação de familiares</option>
+					<option value="facebook">Facebook</option>
+					<option value="instagran">Instagran</option>
+					<option value="propagandalocal">Propaganda local</option>
+                </select><br><br>
+                
+                <label for="mensagem">Deixe aqui sua mensagem</label><br>
+                <textarea name="inputmensagem" maxlength="150" rows="5" cols="50" placeholder="Deixe aqui sua dúvida, sugestão, ou a mensagem que desejar" required></textarea><br><br>
+                
+                <input type="submit" id="enviar" value="Enviar">
+				<input type="reset" id="limpar" value="Limpar">
+
+            </form>
+        </div>
+
+        <footer>
+            <div class="rodape">
+                <a href="http://www.facebook.com/Lanchonete-Kibon-748469648620825/"><i class="fab fa-facebook-square"></i><p class="facebook">Curta nossa página no Facebook</p></a>
+                <a href="https://www.instagram.com/lanchonetekibon/?hl=pt-br"><i class="fab fa-instagram-square"></i><p class="instagram">Nos siga no Instagram</p></a>
+                <script src="../javascript/js.js"></script>
+            </div>
+        </footer>
+    </body>
+</html>

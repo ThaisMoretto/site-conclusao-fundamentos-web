@@ -1,0 +1,1 @@
+document.write("Copyright - Todos os direitos reservados - 2020");
